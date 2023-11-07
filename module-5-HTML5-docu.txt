@@ -1,0 +1,43 @@
+1.What are the new tags added in HTML5?
+Ans.The commonly used new HTML5 tags are <figure>, <article>, <header>, <main>,<footer>, <nav>, and <section>.
+
+2.How to embed audio and video in a webpage?
+Ans.
+ embed audio in HTML-
+       <!DOCTYPE html>
+       <html>
+       <head>
+       <title>Page Title</title>
+       </head>
+       <body>
+       <audio src="./test.mp3" controls></audio>
+       </body>
+      </html>
+
+ embed video in HTML-
+
+      <!DOCTYPE html>
+      <html>
+      <head>
+      <title>Page Title</title>
+      </head>
+      <body>
+    <video src="./test.mp4" controls></video>
+    </body>
+   </html>
+
+
+3.Semantic element in HTML5?
+Ans.
+  Elements such as <header>, <nav>, <section>, <article>, <aside>, and <footer> act more or less like <div> elements. 
+
+
+4.Canvas and SVG tags
+Ans.
+The <svg> tag defines a container for SVG graphics.
+SVG has several methods for drawing paths, boxes, circles, text, and graphic images.
+
+
+The <canvas> tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+
+The <canvas> tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics.
