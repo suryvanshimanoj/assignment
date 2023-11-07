@@ -1,0 +1,92 @@
+1. What are the benefits of using CSS?
+Ans.
+ 1) Faster Page Speed. More code means slower page speed. ...
+ 2) Better User Experience. CSS not only makes web pages easy on the eye, it also allows for user-friendly formatting. ...
+ 3) Quicker Development Time. ...
+ 4) Easy Formatting Changes. ...
+ 5) Compatibility Across Devices.
+
+
+2.What are the disadvantages of CSS?
+Ans.
+ i.Confusion due to many CSS levels. Beginners are more vulnerable to this issue. ...
+ ii.Cross-Browser Issues. Different browsers work differently. ...
+ iii.Security Issues. Security is important in today's world driven by technology and data. ...
+ iv.Extra Work for Developers.
+
+3.Name a few CSS style components?
+Ans.The major components of a CSS style are as follows: Selecter: HTML element name, id name, class name. Property:
+    It's like an attribute such as background color,font-size,position,text-align,color,border etc. Values:
+    Which defines property or values allocate for properties.
+
+4. What do you understand by CSS opacity?
+Ans.The opacity CSS property sets the opacity of an element.
+    Opacity is, the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+
+5. How can the background color of an element be changed?
+Ans.CSS background-color property. Set it to the color name or code you want and place it inside a style attribute.
+    Then add this style attribute to an HTML element, like a table, heading, div, or span tag.
+
+6. What is the use of the background-position property?
+Ans.The background-position property in CSS is mainly used to sets the initial position for the background image ie.,
+    it is used to set an image at a certain position. 
+
+ Ex. 
+  <!DOCTYPE html>
+<html>
+<head>
+    <title> CSS | background-position Property </title>
+    <style>
+    body {
+        background-image: url("../html-top/home-1/Images/happy\ ganesh-1.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top;
+    }
+    </style>
+</head>
+ 
+</html>
+
+
+7.Which property controls the image scroll in the background?
+Ans.
+ <!DOCTYPE html>
+<html>
+<head>
+<style> 
+.fixed-bg {
+  background-image: url("img_tree.gif");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<p>In this example, we have created a fixed background image that will disappear slowly on scroll.
+ Scroll the page to see the effect. <strong>Note:</strong> Try to remove the background-attachment property to really understand this example.</p>
+ 
+<div class="fixed-bg"></div>
+
+<div style="height:800px;background-color:yellow;">This div is only here to enable scrolling (height = 800 pixels).</div>
+
+</body>
+</html>
+
+
+8.Why should background and color be used as separate properties?
+Ans.The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+
+
+9.How to center block elements using CSS1?
+Ans.we can simply make use of the <center> tag. All the elements within the <center> tag will be centrally aligned.
+
+
+
+
+ 
