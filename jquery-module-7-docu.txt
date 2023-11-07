@@ -1,0 +1,134 @@
+1.What is jQuery?
+Ans.jQuery is a lightweight, "write less, do more", JavaScript library. 
+     The purpose of jQuery is to make it much easier to use JavaScript on your website.
+    -jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+
+2.How to Apply CSS Using JQuery, How to Add Class and Remove Class in
+Jquery, JQuery Animation?
+
+Ans.
+  -jQuery Manipulating CSS
+
+ 1. addClass() - Adds one or more classes to the selected elements.
+ 2. removeClass() - Removes one or more classes from the selected elements.
+ 3. toggleClass() - Toggles between adding/removing classes from the selected elements.
+ 4. css() - Sets or returns the style attribute.
+
+Ex.-1.jQuery addClass() Method
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+    <script>
+      $(document).ready(function(){
+       $("button").click(function(){
+       $("h1, h2, p").addClass("blue");
+      $("div").addClass("important");
+      });
+    });
+ </script>
+ <style>
+ .important {
+   font-weight: bold;
+   font-size: xx-large;
+ }
+
+ .blue {
+   color: blue;
+ }
+ </style>
+ </head>
+ <body>
+
+ <h1>Heading 1</h1>
+ <h2>Heading 2</h2>
+
+ <p>This is a paragraph.</p>
+ <p>This is another paragraph.</p>
+
+ <div>This is some important text!</div>
+
+  Ex.-2.jQuery removeClass() Method
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+     $(document).ready(function(){
+        $("button").click(function(){
+        $("h1, h2, p").removeClass("blue");
+        });
+      });
+    </script>
+    <style>
+      .blue {
+       color: blue;
+       }
+    </style>
+    </head>
+    <body>
+
+   <h1 class="blue">Heading 1</h1>
+   <h2 class="blue">Heading 2</h2>
+
+  <p class="blue">This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+
+  <button>Remove class from elements</button>
+
+  </body>
+  </html>
+
+  Ex.-3.jQuery toggleClass() Method
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+       $("button").click(function(){
+       $("h1, h2, p").toggleClass("blue");
+      });
+     });
+   </script>
+   <style>
+   .blue {
+   color: blue;
+   }
+  </style>
+  </head>
+  <body>
+
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+
+  <button>Toggle class</button>
+  </body>
+  </html>
+
+  Ex.-4.jQuery css() Method
+
+ Use a jQuery method to add the "important" class to a <p> element.
+
+   $("p").addClass("important");
+
+
+3.How to create slider with animation?
+ Ans.
+  -Table of Contents:
+   Step 1: Come up with a strategy for the slider.
+   Step 2: Update the background image in each slide.
+   Step 3: Update the text layers in each slide.
+   Step 4: Edit the button text and design in each slide.
+   Step 5: Edit the slider navigation.
+
+
+
