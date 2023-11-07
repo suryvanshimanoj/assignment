@@ -1,0 +1,187 @@
+1.What is JavaScript?
+
+Ans. JavaScript is a lightweight, cross-platform, and interpreted compiled programming language which is also known
+        as the scripting language for webpages.
+
+2.What is the use of isNaN function?
+ 
+Ans.
+   The JavaScript isNaN() Function is used to check whether a given value is an illegal number or not.
+    It returns true if the value is a NaN else returns false.
+     It is different from the Number.isNaN() Method.
+
+    Syntax:
+
+       isNaN( value )
+
+
+3.What is negative Infinity?
+
+Ans.Negative infinity is a number in java script, which is derived by 'dividing negative number by zero'.
+    A number object needs not to be created to access this static property.
+    The value of negative infinity is the same as the negative value of the infinity property of the global object.
+
+
+4.Which company developed JavaScript?
+
+Ans. JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2, and became the ECMA-262 standard in 1997.
+   After Netscape handed JavaScript over to ECMA, the Mozilla foundation continued to develop JavaScript for the Firefox browser.
+
+
+
+5.What are undeclared and undefined variables?
+Ans.
+   Undefined: It occurs when a variable has been declared but has not been assigned any value.
+              Undefined is not a keyword. 
+   Undeclared: It occurs when we try to access any variable that is not initialized or
+               declared earlier using the var or const keyword. 
+
+
+6.Write the code for adding new elements dynamically?
+Ans.
+    Syntax: document.createElement("<tagName>");  
+          // Where <tagName> can be any HTML 
+         // tagName like div, ul, button, etc.
+
+        // newDiv element has been created
+        For Eg: let newDiv = document.createElement("div");
+
+
+
+7.What is the difference between ViewState and SessionState?
+
+Ans.ViewState is to manage state at the client's end, making state management easy for end-user while
+     SessionState manages state at the server's end,
+
+
+8.How can the style/class of an element be changed?
+Ans.the style of an element is by changing its class attribute. class is a reserved word in JavaScript,
+ so in order to access the element's class, you use element. className .
+
+
+9.How to read and write a file using JavaScript?
+
+Ans.Files can be read and written by using java script functions – fopen(),fread() and fwrite().
+    The function fopen() takes two parameters – 
+      1. Path and 2. Mode (0 for reading and 3 for writing). The fopen() function returns -1, if the file is successfully opened.
+
+Example:
+
+  file=fopen(getScriptPath(),0);
+
+  [The function fread() is used for reading the file content.]
+
+
+Example:
+    str = fread(file,flength(file) ;
+
+   [The function fwrite() is used to write the contents to the file.]
+   
+
+
+10.What are all the looping structures in JavaScript?
+
+Ans. In JavaScript, there are three main types of looping structures that allow you to repeat
+      a set of instructions multiple times. These looping structures are:
+
+Example.
+    1.for 
+    2.while
+    3.do while
+    <script>
+             1.FOR
+
+        for (let i = 0; i <= 5; i++) {   
+             document.write("Tops"+"<hr>")  
+         }
+
+            2. WHILE
+
+             let i=0
+         while (i<5) {
+             document.write("TOPS"+"<hr>")
+             i++
+         }
+
+            3. DO WHILE
+
+            let i=6
+            do {
+                document.write("TOPS"+"<hr>")
+                i++
+            } while (i<5);
+    </script>
+
+
+11.What is the function of the delete operator?
+Ans.The delete operator deletes both the value of the property and the property itself.
+    After deletion, the property cannot be used before it is added back again.
+    The delete operator is designed to be used on object properties. It has no effect on variables or functions.
+
+Expressions - delete operator
+
+    const Employee = {
+    firstname: 'John',
+    lastname: 'Doe',
+ };
+
+  console.log(Employee.firstname);
+  // Expected output: "John"
+
+  delete Employee.firstname;
+
+  console.log(Employee.firstname);
+  // Expected output: undefined
+
+
+12.What are all the types of Pop up boxes available in JavaScript?
+Ans.
+  JavaScript has three kind of popup boxes: Alert box, Confirm box, and , Prompt box.
+
+
+13.What is the use of Void (0)?
+Ans.
+  <!DOCTYPE html>
+
+  <html>
+
+  <head>
+
+  <title>using JavaScript:void(0)</title>
+
+  </head>
+
+  <body align="center">
+
+    <h2>Using JavaScript:void(0)</h2>
+
+     <a href="JavaScript:void(0);" ondblclick="alert('Task completed!')">Double Click Me!</a>
+
+  </body>
+
+  </html>
+
+14.What are the disadvantages of using innerHTML in JavaScript?    
+Ans.
+Example
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Basic of HTML</title>
+</head>
+<body>
+   <p id= 'demo'>Hello</p>
+   <button onclick="Change()">Change</button>
+   <script>
+      function Change()
+      {
+         let p = document.getElementById('demo');
+         p.innerHTML = '<span>Hello World</span>';
+      }
+   </script>
+</body>
+</html>
