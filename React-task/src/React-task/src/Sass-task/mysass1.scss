@@ -1,0 +1,88 @@
+$tc:blue;
+$bg:aqua;
+$fs:25px;
+
+
+.myheader{
+    color: $tc;
+    background-color: $bg;
+    font-size: $fs;
+}
+
+nav {
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    li{
+        display: inline-block;
+    }
+    a {
+        display: block;
+        padding: 6px 10px;
+        text-decoration: none;
+        color: blue;
+        background-color: $bg;
+    }
+    
+}
+
+.mytext {
+
+    text: {
+        align:center;
+        transform: uppercase;
+        shadow: 5px 5px 5px blue;
+
+    }
+}
+
+.btn-basic {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    background-color: lime;
+    margin-bottom: 10px;
+}
+
+.btn-red {
+    @extend.btn-basic;
+    background-color: red;
+}
+
+.btn-green {
+    @extend.btn-basic;
+    background-color: green;
+}
+.btn-blue{
+    @extend.btn-basic;
+    background-color: blue;
+}
+.btn-pink {
+    @extend.btn-basic;
+    background-color: pink;
+}
+.btn-orange {
+    @extend.btn-basic;
+    background-color: orange;
+}
+.btn-yellow {
+    @extend.btn-basic;
+    background-color: yellow;
+}
+.btn-maroon {
+    @extend.btn-basic;
+    background-color: maroon;
+}
+.btn-magenta {
+    @extend.btn-basic;
+    background-color: magenta;
+}
+.btn-cadetblue {
+    @extend.btn-basic;
+    background-color: cadetblue;
+}
