@@ -1,0 +1,11 @@
+           MODULE: 12 React Router
+
+
+● Create React app with modules and lazy loading (Admin-user module with
+child Router and outlet)
+
+
+https://github.com/suryvanshimanoj/assignment/tree/main/Routing_Task
+
+                
+
