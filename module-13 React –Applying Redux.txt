@@ -1,0 +1,71 @@
+                               Module:13 React-Redux
+
+
+• What is Redux?
+
+ ->Redux is a predictable state container designed to help you write
+ JavaScript apps that behave consistently across client,server, and native
+ environments, and are easy to test.
+
+ ->It’s mostly used as a state-management tool with React. you can also
+  use it with other JavaScript frameworks or libraries.
+
+  ->It’s lightweight so you don’t need to worry about App size.
+
+  ->When your project grows to the scale where managing app state
+  becomes trouble, you can use redux to simplify the process of state
+  management of state.
+
+
+
+• What is Redux Thunk used for?
+
+ ->Redux thunk is a middleware and the middleware functions run between
+dispatching an action and reducer. It is used for logging, routing, and
+asynchronous action.
+
+
+->It allows us to return a function instead of an object from the actions, only
+redux doesn't allow us to perform complex logic inside action functions.
+
+
+Thunk allows us to run some asynchronous code before dispatching the
+action function.
+
+
+
+• What is Pure Component? When to use Pure Component
+overComponent?
+
+
+React Pure components are the components that don't re-renders when
+states and props value are updated with the same values. So,these
+components do not cause re-rendering to improve performance.
+
+When we don’t need our child component to re-rendered when its parent
+component re-renders we use Pure Component.
+
+
+
+• What is the second argument that can optionally be
+passedtosetState and what is its purpose?
+
+The second argument that can optionally be passed to setState is
+callback function which gets called immediately after the setState is
+completed and the components get re-rendered.
+
+If we want our program to perform certain actions on updated state after
+setting the setState value for that we must have to specify those actions in
+callback function or we can say function as a second argument to the
+setState. If we don’t do that, actions will be performed on the previous
+value of the state because of the asynchronous nature of setState.
+
+
+
+• Create a Table and Search data from table using React Js?
+
+https://github.com/suryvanshimanoj/ReactDataSearch
+
+
+
+
